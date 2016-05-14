@@ -1,7 +1,11 @@
 {
   "name": "sysinfo",
   "description": "a app to get some basic information",
-  "version": "1.0.0",
+  "version": "1.0.0",  
+  "dependencies": {
+    "express": "3.2.6",
+    "systeminformation": "2.0.5"
+  },
   "engines": {
     "node": "4.1.1",
     "npm": "2.15.1"
