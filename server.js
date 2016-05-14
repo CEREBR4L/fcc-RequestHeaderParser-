@@ -31,6 +31,6 @@ app.use(function(req, res) {
     res.status(404).end('(404) Opps, seems you have got a little lost! There is nothing here.');
 });
 
-app.listen('8080', function(){
-  console.log('App now live and running on port 8080!');
+app.listen(process.env.PORT, function(){
+  console.log('App now live and running on port ' + process.env.PORT + '!' );
 });
