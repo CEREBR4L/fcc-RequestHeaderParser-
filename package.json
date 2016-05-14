@@ -7,7 +7,7 @@
     "systeminformation": "2.0.5"
   },
   "engines": {
-    "node": "4.1.1",
+    "node": "4.4.3",
     "npm": "2.15.1"
   }
 }
