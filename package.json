@@ -1,1 +1,9 @@
-
+{
+  "name": "sysinfo",
+  "description": "a app to get some basic information",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.1.1",
+    "npm": "2.15.1"
+  }
+}
